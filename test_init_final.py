@@ -776,7 +776,7 @@ class taskCog(commands.Cog):
 						continue
 					continue
 				t.cancel()
-		await ctx.send( '< 보탐봇 명치 맞고 숨 고르기 중! 잠시만요! >', tts=False)
+		await ctx.send( '< 공룡 명치 맞고 숨 고르기 중! 그만때려요 T ^ T 으앙... 흑.. >', tts=False)
 		print("명치!")
 		await dbSave()
 		await data_list_Save("kill_list.ini", "-----척살명단-----", kill_Data)
@@ -834,7 +834,7 @@ class taskCog(commands.Cog):
 				await self.bot.get_channel(basicSetting[6]).connect(reconnect=True)
 				if self.bot.voice_clients[0].is_connected() :
 					await dbLoad()
-					await self.bot.get_channel(channel).send( '< 다시 왔습니다! >', tts=False)
+					await self.bot.get_channel(channel).send( '< 다시 왔습니다! 또 때릴꺼얌?... >', tts=False)
 					print("명치복구완료!")
 
 		while not self.bot.is_closed():
