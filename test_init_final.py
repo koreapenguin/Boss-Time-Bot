@@ -1592,7 +1592,7 @@ class mainCog(commands.Cog):
 					tmp_boss_information[0] = '``` ```'
 
 				embed = discord.Embed(
-						title = "----- 미예약 보스 -----",
+						title = "----- 미예약 불완전 -----",
 						description= tmp_boss_information[0],
 						color=0x0000ff
 						)
@@ -1607,7 +1607,7 @@ class mainCog(commands.Cog):
 					tmp_boss_information[0] = '``` ```'
 
 				embed = discord.Embed(
-					title = "----- 미예약 보스 -----",
+					title = "----- 미예약 불완전 -----",
 					description= tmp_boss_information[0],
 					color=0x0000ff
 					)
@@ -2113,7 +2113,7 @@ class mainCog(commands.Cog):
 						color=0x0000ff
 						)
 				embed.add_field(
-						name="----- 미예약 보스 -----",
+						name="----- 미예약 불완전 -----",
 						value= tmp_boss_information[0],
 						inline = False
 						)				
@@ -2153,7 +2153,7 @@ class mainCog(commands.Cog):
 					tmp_boss_information[0] = '``` ```'
 
 				embed = discord.Embed(
-					title = "----- 미예약 보스 -----",
+					title = "----- 미예약 불완전 -----",
 					description= tmp_boss_information[0],
 					color=0x0000ff
 					)
@@ -2326,7 +2326,7 @@ class mainCog(commands.Cog):
 				tmp_boss_information[0] = '``` ```'
 
 			embed = discord.Embed(
-				title = "----- 미예약 보스 -----",
+				title = "----- 미예약 불완전 -----",
 				description= tmp_boss_information[0],
 				color=0x0000ff
 				)
