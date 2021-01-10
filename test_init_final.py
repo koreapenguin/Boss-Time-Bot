@@ -2108,7 +2108,7 @@ class mainCog(commands.Cog):
 					tmp_boss_information[0] = '``` ```'
 
 				embed = discord.Embed(
-						title = "----- 보스탐 정보 -----",
+						title = "----- 불완전 시간 -----",
 						description= boss_information[0],
 						color=0x0000ff
 						)
@@ -2126,7 +2126,7 @@ class mainCog(commands.Cog):
 					boss_information[0] = '``` ```'
 
 				embed = discord.Embed(
-						title = "----- 보스탐 정보 -----",
+						title = "----- 불완전 시간 -----",
 						description= boss_information[0],
 						color=0x0000ff
 						)
@@ -2298,7 +2298,7 @@ class mainCog(commands.Cog):
 				boss_information[0] = '``` ```'
 
 			embed = discord.Embed(
-					title = "----- 보스탐 정보 -----",
+					title = "----- 불완전 시간 -----",
 					description= boss_information[0],
 					color=0x0000ff
 					)
